@@ -20,7 +20,7 @@ programme_url = "https://github.com/yo-le-zz/Explorateur_distant/releases/latest
 # Le nom de l'exécutable principal (à remplacer par le nom réel de votre .exe)
 PROGRAM_NAME = "Explorateur_distant.exe" 
 # Le repository pour l'updater
-REPO_NAME = os.path.basename(os.path.dirname(__file__))
+REPO_NAME = "yo-le-zz/Explorateur_distant"
 
 
 # Nouvelle classe pour le mode 1-serveur (inchangée)
@@ -242,3 +242,4 @@ if __name__ == "__main__":
     # ... (reste du code CLI inchangé) ...
 
     main()
+
